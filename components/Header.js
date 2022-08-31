@@ -17,9 +17,9 @@ export default function Header() {
   return (
     <View style={styles.header}>
       <Text style={styles.title}>My Todo</Text>
+      
     </View>
   );
-  
 }
 
 const styles = StyleSheet.create({

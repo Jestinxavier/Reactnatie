@@ -26,12 +26,12 @@ function addtodo({ addtododata }) {
         style={style.input}
       />
       <Button
-      
         title="Add Todo"
         onPress={() => {
           addtododata(text);
         }}
       />
+      
     </View>
   );
 }

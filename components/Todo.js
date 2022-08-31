@@ -15,6 +15,7 @@ import {
 export default function Todo({item,pressHandler}) {
   return (
     <TouchableOpacity onPress={()=>pressHandler(item.id)}>
+      
       <Text style={styles.item}>{item.text}</Text>
     </TouchableOpacity>
   );
